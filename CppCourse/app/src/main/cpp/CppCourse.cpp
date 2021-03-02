@@ -15,6 +15,12 @@
  * 标准模板库（STL），提供了大量的方法，用于操作数据结构等。
  * 标准化：C++98 C++03 C++11 C++14 C++17
  * C++ 编译器:
+ * 1.GNU 的 C/C++ 编译器 g++ gcc GCC
+ * GCC:GNU Compiler Collection(GUN 编译器集合)，它可以编译C、C++、JAV、Fortran、Pascal、Object-C、Ada等语言。
+ * gcc是GCC中的GUN C Compiler（C 编译器）
+ * g++是GCC中的GUN C++ Compiler（C++编译器）
+ * 2.clang
+ *
  */
 extern "C" JNIEXPORT jstring JNICALL
 Java_androidstack_cppcourse_MainActivity_stringFromJNI(

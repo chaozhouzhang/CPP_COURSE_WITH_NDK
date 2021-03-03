@@ -27,7 +27,11 @@ add_library( # Sets the name of the library.
         advanced/Exception.cpp
         advanced/Exception.h
         advanced/Memory.cpp
-        advanced/Memory.h)
+        advanced/Memory.h
+        advanced/Thread.cpp
+        advanced/Thread.h
+        standard_library/STL.cpp
+        standard_library/STL.h)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

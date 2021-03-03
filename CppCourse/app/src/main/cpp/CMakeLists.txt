@@ -17,7 +17,17 @@ add_library( # Sets the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-        CppCourse.cpp)
+        CppCourse.cpp
+        basic/Struct.cpp
+        basic/Struct.h
+        advanced/Template.cpp
+        advanced/Template.h
+        advanced/Stream.cpp
+        advanced/Stream.h
+        advanced/Exception.cpp
+        advanced/Exception.h
+        advanced/Memory.cpp
+        advanced/Memory.h)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

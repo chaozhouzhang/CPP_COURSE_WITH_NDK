@@ -31,7 +31,9 @@ add_library( # Sets the name of the library.
         advanced/Thread.cpp
         advanced/Thread.h
         standard_library/STL.cpp
-        standard_library/STL.h)
+        standard_library/STL.h
+        object_oriented/OverLoading.cpp
+        object_oriented/OverLoading.h)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
